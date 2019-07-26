@@ -1,0 +1,31 @@
+{
+  "name": "answer-my",
+  "version": "0.0.1",
+  "description": "一个基于node+express+mysql 开发的简易问答社区系统",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/germanabc/answer-my.git"
+  },
+  "author": "shawn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/germanabc/answer-my/issues"
+  },
+  "homepage": "https://github.com/germanabc/answer-my#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^0.19.1",
+    "mysql": "^2.17.1",
+    "xtemplate": "^4.6.1",
+    "xtpl": "^3.4.0"
+  }
+}

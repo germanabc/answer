@@ -1,0 +1,23 @@
+{
+  "name": "answer-my",
+  "description": "一个基于node+express+mysql 开发的简易问答社区系统",
+  "main": "app.js",
+  "authors": [
+    "shawn"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/germanabc/answer-my",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/vender",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "underscore": "^1.8.3",
+    "bootstrap": "^3.3.6",
+    "jquery-validation": "^1.15.0"
+  }
+}
